@@ -1,0 +1,82 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "Arbeitssicherheit_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 78.42422792966563,
+	        "minpan": 0,
+	        "mintilt": -90
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_info_blue.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "javascript:",
+	            "hsinfo": {
+	                "align": "center",
+	                "captureMouse": true,
+	                "checkHover": true,
+	                "id": "hsinfo0",
+	                "maxwidth": "66%",
+	                "onclick": "function(){ this.viewer.action('hideMessage'); } ",
+	                "style": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);",
+	                "text": "<p style='padding: 8px;' class='panoStudioViewerText1'><style>p.panoStudioViewerText1 a, a:visited {color: #FDB815;} p.panoStudioViewerText1 a:hover, a:active {color: #EFF517;}</style>Achtung: Fluchtwege freihalten</p>",
+	                "xoff": 0,
+	                "yoff": -30
+	            },
+	            "onclick": "function(){ this.viewer.action('toggleMessage',this.hsinfo); }",
+	            "position": "116.6253,10.8510",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_green.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "Neues%20Panorama%201.json",
+	            "position": "267.1960,0.3292",
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Feuerlöscher"
+	            },
+	            "transition": "zoomin,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "Arbeitssicherheit",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_1b_%0y_%0x.jpg"},"down":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_1d_%0y_%0x.jpg"},"front":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_1f_%0y_%0x.jpg"},"height":4618,"left":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_1l_%0y_%0x.jpg"},"right":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_1r_%0y_%0x.jpg"},"tilesize":578,"up":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_1u_%0y_%0x.jpg"},"width":4618},{"back":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_2b_%0y_%0x.jpg"},"down":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_2d_%0y_%0x.jpg"},"front":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_2f_%0y_%0x.jpg"},"height":2309,"left":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_2l_%0y_%0x.jpg"},"right":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_2r_%0y_%0x.jpg"},"tilesize":578,"up":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_2u_%0y_%0x.jpg"},"width":2309},{"back":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_3b_%0y_%0x.jpg"},"down":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_3d_%0y_%0x.jpg"},"front":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_3f_%0y_%0x.jpg"},"height":1154,"left":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_3l_%0y_%0x.jpg"},"right":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_3r_%0y_%0x.jpg"},"tilesize":578,"up":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_3u_%0y_%0x.jpg"},"width":1154},{"back":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_4b_%0y_%0x.jpg"},"down":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_4d_%0y_%0x.jpg"},"front":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_4f_%0y_%0x.jpg"},"height":577,"left":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_4l_%0y_%0x.jpg"},"right":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_4r_%0y_%0x.jpg"},"tilesize":578,"up":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_t_4u_%0y_%0x.jpg"},"width":577}],"multilevel":true,"preview":{"src":"Arbeitssicherheit_tiles/Arbeitssicherheit_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}
