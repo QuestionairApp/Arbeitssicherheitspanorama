@@ -132,8 +132,11 @@ module.exports.get_gradle_wrapper = function () {
         }
     } else {
         // OK, let's try to check for Gradle!
-        return forgivingWhichSync('gradle');
-    }
+        //return forgivingWhichSync('gradle');
+          //OK, let's try to check for Gradle!
+          var sdkDir = process.env['ANDROID_HOME'];
+          return path.join(sdkDir, 'tools', 'templates', 'gradle', 'wrapper', 'gradlew');
+   }
 };
 
 // Returns a promise. Called only by build and clean commands.
